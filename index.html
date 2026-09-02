@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description"
+        content="The Bengali Bride — Luxury Bengali Wedding Photography Studio in Kolkata. Cinematic, emotional and heirloom wedding storytelling.">
+    <meta name="keywords"
+        content="The Bengali Bride, Bengali wedding photography, Kolkata wedding photographer, Luxury wedding photography, Candid wedding photographer Kolkata">
+    <meta name="author" content="The Bengali Bride">
+
+    <!-- Page Title -->
+    <title>The Bengali Bride — Luxury Bengali Wedding Photography Studio</title>
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+    <!-- Google Fonts: Cormorant Garamond & Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Font Awesome Icon CSS -->
+    <link href="css/all.min.css" rel="stylesheet" media="screen">
+    <!-- Animated CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Luxury Light Editorial Redesign Stylesheet -->
+    <link href="css/editorial-redesign.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+    <!-- 1. Floating Glass Header Navigation -->
+    <header class="editorial-header">
+        <div class="editorial-nav-container">
+            <a href="index.html" class="nav-brand-logo">
+                <img src="images/logo.svg" alt="The Bengali Bride Logo">
+            </a>
+
+            <ul class="nav-links-menu">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="#stories">STORIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+
+            <a href="contact.html" class="nav-cta-btn">
+                <span>CONTACT US</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <button class="mobile-nav-toggle" id="openOffcanvas" aria-label="Open navigation menu">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Offcanvas Drawer -->
+    <div class="offcanvas-backdrop" id="offcanvasBackdrop"></div>
+    <div class="offcanvas-menu-drawer" id="offcanvasDrawer">
+        <div class="offcanvas-header">
+            <a href="index.html" class="offcanvas-brand">
+                <img src="images/logo.svg" alt="The Bengali Bride Logo" height="34">
+            </a>
+            <button class="offcanvas-close-btn" id="closeOffcanvas" aria-label="Close navigation menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="offcanvas-nav-links">
+                <li><a href="index.html" class="active"><span>01</span>Home</a></li>
+                <li><a href="about.html"><span>02</span>About Studio</a></li>
+                <li><a href="services.html"><span>03</span>Services &amp; Films</a></li>
+                <li><a href="portfolio.html"><span>04</span>Portfolio</a></li>
+                <li><a href="#stories" class="offcanvas-anchor"><span>05</span>Featured Stories</a></li>
+                <li><a href="contact.html"><span>06</span>Contact Us</a></li>
+            </ul>
+
+            <div class="offcanvas-footer-cta">
+                <a href="contact.html" class="btn-editorial-primary w-100 justify-content-center">
+                    <span>INQUIRE FOR YOUR DATE</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <div class="offcanvas-contact-details">
+                    <p class="offcanvas-email"><i class="fa-regular fa-envelope"></i> hello@thebengalibride.com</p>
+                    <p class="offcanvas-phone"><i class="fa-solid fa-phone"></i> +91 98300 XXXXX</p>
+                    <div class="offcanvas-socials">
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. SECTION 1: Full-Screen 90vh Hero Section -->
+    <section class="hero-editorial">
+        <div class="hero-bg-media">
+            <img src="images/hero-bg-image.png" alt="Traditional Kolkata Bengali Wedding Couple">
+        </div>
+        <div class="hero-vignette-overlay"></div>
+
+        <div class="container-editorial hero-content-wrap">
+            <div class="hero-main-row">
+                <div class="hero-text-block">
+                    <span class="eyebrow-label wow fadeInUp">PURE LOVE, PERFECTLY CAPTURED</span>
+                    <h1 class="hero-headline wow fadeInUp" data-wow-delay="0.12s">
+                        Turning your wedding into <span class="editorial-serif">lasting memories</span>
+                    </h1>
+                    <p class="hero-subparagraph wow fadeInUp" data-wow-delay="0.22s">
+                        Wedding photography that preserves the emotion, energy and little moments you never want to forget.
+                    </p>
+                    <div class="hero-action-group wow fadeInUp" data-wow-delay="0.32s">
+                        <a href="#stories" class="btn-editorial-primary">
+                            <span>VIEW OUR STORIES</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#portfolio" class="btn-editorial-secondary btn-light">
+                            <span>EXPLORE PORTFOLIO</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Subtle Circular Booking Stamp -->
+                <div class="book-date-stamp wow fadeIn" data-wow-delay="0.45s">
+                    <svg class="circular-text" viewBox="0 0 100 100">
+                        <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"
+                            fill="transparent"></path>
+                        <text font-size="9" fill="#FFFFFF" letter-spacing="2.2">
+                            <textPath href="#circlePath">BOOK YOUR DATE • 2026 • </textPath>
+                        </text>
+                    </svg>
+                    <a href="contact.html"><i class="fa-solid fa-calendar-check"></i></a>
+                </div>
+            </div>
+
+            <!-- Hero Feature Strip -->
+            <ul class="hero-feature-strip wow fadeInUp" data-wow-delay="0.4s">
+                <li><span class="check">✓</span> Bengali Wedding Photography</li>
+                <li><span class="check">✓</span> High-Resolution Heirloom Edits</li>
+                <li><span class="check">✓</span> Pre-Wedding &amp; Ceremony Coverage</li>
+                <li><span class="check">✓</span> Handcrafted Fine Art Albums</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 3. SECTION 2: Editorial Intro Section (Split 42% / 58%) -->
+    <section class="section-intro-editorial" id="about">
+        <div class="container-editorial">
+            <div class="intro-grid">
+                <div class="intro-text-col">
+                    <span class="eyebrow-label wow fadeInUp">OUR APPROACH</span>
+                    <h2 class="section-title-editorial wow fadeInUp" data-wow-delay="0.1s">
+                        Passionate about preserving <span class="editorial-serif">what matters.</span>
+                    </h2>
+                    <p class="section-desc-editorial wow fadeInUp" data-wow-delay="0.2s">
+                        We blend high-fashion editorial aesthetics with raw Bengali wedding traditions. Every sacred ritual, quiet tear, and radiant laughter is documented as a timeless work of art.
+                    </p>
+                    <div style="margin-top: 32px;" class="wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="about.html" class="btn-editorial-link">
+                            <span>OUR APPROACH</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="intro-composition-col wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="intro-img-main">
+                        <img src="images/about-us-image-1.jpg" alt="Bengali Bride Portrait Kolkata">
+                    </div>
+                    <div class="intro-img-secondary">
+                        <img src="images/about-us-image-2.jpg" alt="Bengali Wedding Couple Ceremony">
+                    </div>
+                    <div class="intro-floating-tag">
+                        <i class="fa-solid fa-location-dot" style="margin-right: 6px;"></i> Kolkata &amp; Worldwide
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SECTION 3: Featured Weddings (60% / 40% Editorial Layout) -->
+    <section class="section-stories-editorial" id="stories">
+        <div class="container-editorial">
+            <div class="d-flex justify-content-between align-items-end flex-wrap gap-3">
+                <div>
+                    <span class="eyebrow-label wow fadeInUp">FEATURED WEDDINGS</span>
+                    <h2 class="section-title-editorial wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 0;">
+                        Capturing every moment <br>with <span class="editorial-serif">real emotion.</span>
+                    </h2>
+                </div>
+                <a href="portfolio.html" class="btn-editorial-link wow fadeInUp" data-wow-delay="0.2s">
+                    <span>VIEW ALL STORIES</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="stories-editorial-grid">
+                <!-- Large Feature Story (60% width) -->
+                <div class="story-card-large wow fadeInUp" data-wow-delay="0.15s"
+                    onclick="location.href='portfolio-single.html'">
+                    <img src="images/portfolio-1.jpg" alt="Ananya and Arjun Wedding Story Kolkata">
+                    <div class="story-card-overlay">
+                        <span class="story-meta-badge">KOLKATA · ROYAL WEDDING</span>
+                        <h3 class="story-couple-title">Ananya &amp; Arjun</h3>
+                        <div class="story-location-date">
+                            <span>The Heritage Mandap · Kolkata · 2026</span>
+                            <span class="story-view-link">VIEW STORY <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Two Stacked Smaller Stories (40% width) -->
+                <div class="story-stacked-col">
+                    <div class="story-card-small wow fadeInUp" data-wow-delay="0.25s"
+                        onclick="location.href='portfolio-single.html'">
+                        <img src="images/portfolio-2.jpg" alt="Rhea and Sourav Pre-Wedding Photography">
+                        <div class="story-card-overlay">
+                            <span class="story-meta-badge">PRINSEP GHAT · PRE-WEDDING</span>
+                            <h3 class="story-couple-title">Rhea &amp; Sourav</h3>
+                            <div class="story-location-date">
+                                <span>Ganges Riverside · 2026</span>
+                                <span class="story-view-link">VIEW STORY <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="story-card-small wow fadeInUp" data-wow-delay="0.35s"
+                        onclick="location.href='portfolio-single.html'">
+                        <img src="images/portfolio-3.jpg" alt="Debolina and Rohit Destination Wedding">
+                        <div class="story-card-overlay">
+                            <span class="story-meta-badge">RAJWADA PALACE · TRADITIONAL</span>
+                            <h3 class="story-couple-title">Debolina &amp; Rohit</h3>
+                            <div class="story-location-date">
+                                <span>Sindoor Daan &amp; Reception · 2026</span>
+                                <span class="story-view-link">VIEW STORY <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SECTION 4: Cinematic Image Break (40-45vh Full Width Detail) -->
+    <section class="section-cinematic-break">
+        <div class="cinematic-bg-media">
+            <video autoplay="" muted="" playsinline="" loop="">
+                <source src="media/photoclick-intro-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="cinematic-gradient-veil"></div>
+
+        <div class="cinematic-content wow fadeInUp">
+            <span class="eyebrow-label" style="justify-content: center;">THE POETRY OF LOVE</span>
+            <blockquote class="cinematic-lead-quote">
+                “Every glance. Every ritual. Every feeling.”
+            </blockquote>
+            <a href="media/photoclick-intro-video.mp4" class="cinematic-video-trigger popup-video"
+                aria-label="Play full film">
+                <i class="fa-solid fa-play"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- 6. SECTION 5: Why We Are Trusted (Left Stats / Right 480x420 Image) -->
+    <section class="section-why-editorial">
+        <div class="container-editorial">
+            <div class="why-grid-layout">
+                <div class="why-text-col">
+                    <span class="eyebrow-label wow fadeInUp">WHY WE ARE TRUSTED</span>
+                    <h2 class="section-title-editorial wow fadeInUp" data-wow-delay="0.1s">
+                        Why we're trusted <br><span class="editorial-serif">to tell your story.</span>
+                    </h2>
+                    <p class="section-desc-editorial wow fadeInUp" data-wow-delay="0.2s">
+                        From the sacred saat paake ghora and shubho drishti to intimate candid conversations, we craft
+                        heirloom visuals that let you relive how it genuinely felt.
+                    </p>
+
+                    <!-- Horizontal Stats -->
+                    <div class="why-stats-row wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="stat-metric-item">
+                            <div class="stat-metric-number">10+</div>
+                            <div class="stat-metric-label">YEARS</div>
+                        </div>
+                        <div class="stat-metric-item">
+                            <div class="stat-metric-number">500+</div>
+                            <div class="stat-metric-label">WEDDINGS</div>
+                        </div>
+                        <div class="stat-metric-item">
+                            <div class="stat-metric-number">25+</div>
+                            <div class="stat-metric-label">CITIES</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-image-portrait-card wow fadeInLeft" data-wow-delay="0.2s">
+                    <img src="images/why-choose-image.jpg" alt="Emotional Bengali Wedding Portrait">
+                    <div class="why-portrait-quote-badge">
+                        <p>“Unobtrusive, cinematic, and deeply personal storytelling tailored for your once-in-a-lifetime celebration.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. SECTION 6: Portfolio Gallery (Asymmetric Collage) -->
+    <section class="section-gallery-editorial" id="portfolio">
+        <div class="container-editorial">
+            <div class="text-center" style="margin-bottom: 24px;">
+                <span class="eyebrow-label wow fadeInUp" style="justify-content: center;">OUR PORTFOLIO</span>
+                <h2 class="section-title-editorial wow fadeInUp" data-wow-delay="0.1s">
+                    Our <span class="editorial-serif">Portfolio Gallery</span>
+                </h2>
+            </div>
+
+            <!-- Clean Text Tabs with Gold Underline -->
+            <div class="gallery-tabs-nav wow fadeInUp" data-wow-delay="0.2s">
+                <button class="gallery-text-tab active" data-filter="*">ALL</button>
+                <button class="gallery-text-tab" data-filter=".wedding">WEDDINGS</button>
+                <button class="gallery-text-tab" data-filter=".pre-wedding">PRE-WEDDING</button>
+                <button class="gallery-text-tab" data-filter=".bride">BRIDE</button>
+                <button class="gallery-text-tab" data-filter=".groom">GROOM</button>
+                <button class="gallery-text-tab" data-filter=".moments">MOMENTS</button>
+            </div>
+
+            <!-- Asymmetric Editorial Masonry Collage (6 Images) -->
+            <div class="asymmetric-masonry-grid gallery-items">
+                <!-- Row 1: Large portrait + Wide Image -->
+                <div class="gallery-item item-col-7 wedding bride wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="images/gallery-1.jpg" title="The Royal Mukut — Bengali Bride in Traditional Banarasi">
+                        <img src="images/gallery-1.jpg" alt="Bengali Bride Mukut">
+                        <div class="gallery-item-overlay">
+                            <span class="cat">BRIDE · BANARASI</span>
+                            <span class="title">The Royal Mukut</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery-item item-col-5 pre-wedding moments wow fadeInUp" data-wow-delay="0.15s">
+                    <a href="images/gallery-2.jpg" title="Prinsep Whispers — Sunset by the Hooghly">
+                        <img src="images/gallery-2.jpg" alt="Bengali Couple Prinsep Ghat">
+                        <div class="gallery-item-overlay">
+                            <span class="cat">PRE-WEDDING · KOLKATA</span>
+                            <span class="title">Prinsep Whispers</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Row 2: Wide Image + Two Small Vertical Images -->
+                <div class="gallery-item item-col-4 wedding moments wow fadeInUp" data-wow-delay="0.2s">
+                    <a href="images/gallery-3.jpg" title="Sacred Vows — Saat Paak &amp; Sindoor Daan">
+                        <img src="images/gallery-3.jpg" alt="Bengali Wedding Rituals">
+                        <div class="gallery-item-overlay">
+                            <span class="cat">RITUALS · SANCTUARY</span>
+                            <span class="title">Sacred Vows</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery-item item-col-4 bride moments wow fadeInUp" data-wow-delay="0.25s">
+                    <a href="images/gallery-4.jpg" title="Shubho Drishti — Betel Leaves First Glance">
+                        <img src="images/gallery-4.jpg" alt="Bengali Bride Shubho Drishti">
+                        <div class="gallery-item-overlay">
+                            <span class="cat">CEREMONY · SACRED</span>
+                            <span class="title">Shubho Drishti</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery-item item-col-4-alt groom wedding wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="images/service-item-image-1.jpg" title="The Heritage Groom &amp; Topor Ceremony">
+                        <img src="images/service-item-image-1.jpg" alt="Bengali Groom Topor">
+                        <div class="gallery-item-overlay">
+                            <span class="cat">GROOM · TRADITIONAL</span>
+                            <span class="title">Heritage Topor</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. SECTION 7: Experience Timeline (Horizontal Connected Flow) -->
+    <section class="section-flow-editorial">
+        <div class="container-editorial">
+            <span class="eyebrow-label wow fadeInUp">SEAMLESS PROCESS</span>
+            <h2 class="section-title-editorial wow fadeInUp" data-wow-delay="0.1s">
+                A seamless experience, <br><span class="editorial-serif">from hello to heirloom.</span>
+            </h2>
+
+            <div class="flow-timeline-row">
+                <div class="flow-step-item wow fadeInUp" data-wow-delay="0.15s">
+                    <div class="flow-step-number">01</div>
+                    <div class="flow-step-title">CONNECT</div>
+                    <p class="flow-step-desc">An intimate consultation to understand your wedding vision and cultural traditions.</p>
+                </div>
+
+                <div class="flow-step-item wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="flow-step-number">02</div>
+                    <div class="flow-step-title">PLAN</div>
+                    <p class="flow-step-desc">Tailored timeline curation and lighting planning so you never feel rushed during sacred moments.</p>
+                </div>
+
+                <div class="flow-step-item wow fadeInUp" data-wow-delay="0.35s">
+                    <div class="flow-step-number">03</div>
+                    <div class="flow-step-title">EXPERIENCE</div>
+                    <p class="flow-step-desc">Relaxed, candid direction that lets you immerse in the joy while we document the raw emotion.</p>
+                </div>
+
+                <div class="flow-step-item wow fadeInUp" data-wow-delay="0.45s">
+                    <div class="flow-step-number">04</div>
+                    <div class="flow-step-title">RELIVE</div>
+                    <p class="flow-step-desc">Masterfully color-graded high-resolution gallery and handcrafted fine art wedding albums.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. SECTION 8: Testimonials (Editorial Swiper Carousel) -->
+    <section class="section-testimonial-editorial">
+        <div class="container-editorial">
+            <div class="swiper testimonial-swiper-slider wow fadeInUp">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-editorial-container">
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <blockquote class="testimonial-large-quote">
+                                “It felt like we were reliving the entire day all over again. Every tear, every smile, and the golden hour lighting was preserved with sheer perfection.”
+                            </blockquote>
+                            <div class="testimonial-author-tag">PRIYA &amp; RAHUL BANERJEE</div>
+                            <div class="testimonial-location-tag">ITC Sonar · Kolkata · 2026</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-editorial-container">
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <blockquote class="testimonial-large-quote">
+                                “The team captured our Shubho Drishti and Saat Paake Ghora so authentically without getting in the way. Looking through our fine art album brings tears of joy.”
+                            </blockquote>
+                            <div class="testimonial-author-tag">ANANYA &amp; ARJUN SEN</div>
+                            <div class="testimonial-location-tag">The Oberoi Grand · Kolkata · 2026</div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-editorial-container">
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <blockquote class="testimonial-large-quote">
+                                “From our pre-wedding shoot at Prinsep Ghat to the final reception, they captured the authentic romance and Bengali heirloom rituals effortlessly.”
+                            </blockquote>
+                            <div class="testimonial-author-tag">DEBOLINA &amp; ROHIT MUKHERJEE</div>
+                            <div class="testimonial-location-tag">Rajwada Palace · Kolkata · 2026</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider Controls -->
+                <div class="testimonial-slider-controls">
+                    <button class="testimonial-nav-btn prev-btn" id="testiPrev" aria-label="Previous testimonial">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <div class="testimonial-pagination"></div>
+                    <button class="testimonial-nav-btn next-btn" id="testiNext" aria-label="Next testimonial">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. SECTION 9: Journal (Stories, Inspiration & Wedding Ideas) -->
+    <section class="section-journal-editorial" id="journal">
+        <div class="container-editorial">
+            <div class="d-flex justify-content-between align-items-end flex-wrap gap-3">
+                <div>
+                    <span class="eyebrow-label wow fadeInUp">OUR JOURNAL</span>
+                    <h2 class="section-title-editorial wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 0;">
+                        Stories, inspiration <br>&amp; <span class="editorial-serif">wedding ideas.</span>
+                    </h2>
+                </div>
+                <a href="blog.html" class="btn-editorial-link wow fadeInUp" data-wow-delay="0.2s">
+                    <span>READ ALL ESSAYS</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="journal-cards-grid">
+                <article class="journal-editorial-item wow fadeInUp" data-wow-delay="0.15s"
+                    onclick="location.href='blog-single.html'">
+                    <div class="journal-thumb-wrap">
+                        <img src="images/post-1.jpg" alt="Bengali bridal jewelry and styling guide">
+                    </div>
+                    <div class="journal-item-category">BRIDAL GUIDE</div>
+                    <h3 class="journal-item-title">How to Pose Naturally in a Traditional Red Banarasi Saree</h3>
+                    <span class="btn-editorial-link">READ STORY <i class="fa-solid fa-arrow-right"></i></span>
+                </article>
+
+                <article class="journal-editorial-item wow fadeInUp" data-wow-delay="0.25s"
+                    onclick="location.href='blog-single.html'">
+                    <div class="journal-thumb-wrap">
+                        <img src="images/post-2.jpg" alt="Best pre-wedding photoshoot locations Kolkata">
+                    </div>
+                    <div class="journal-item-category">LOCATIONS</div>
+                    <h3 class="journal-item-title">Top 7 Iconic Pre-Wedding Shoot Locations Across Old Kolkata</h3>
+                    <span class="btn-editorial-link">READ STORY <i class="fa-solid fa-arrow-right"></i></span>
+                </article>
+
+                <article class="journal-editorial-item wow fadeInUp" data-wow-delay="0.35s"
+                    onclick="location.href='blog-single.html'">
+                    <div class="journal-thumb-wrap">
+                        <img src="images/post-3.jpg" alt="Bengali wedding photography timeline tips">
+                    </div>
+                    <div class="journal-item-category">RITUALS</div>
+                    <h3 class="journal-item-title">Capturing Shubho Drishti &amp; Mala Bodol with Perfect Lighting</h3>
+                    <span class="btn-editorial-link">READ STORY <i class="fa-solid fa-arrow-right"></i></span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. SECTION 10: Final Powerful Cinematic CTA (Warm Dark Overlay on Photo) -->
+    <section class="section-final-cta">
+        <div class="final-cta-bg">
+            <img src="images/cta-box-bg-image.jpg" alt="Kolkata Wedding Celebration Finale">
+        </div>
+        <div class="final-cta-overlay"></div>
+
+        <div class="final-cta-content wow fadeInUp">
+            <span class="eyebrow-label" style="justify-content: center;">LIMITED 2026 DATES</span>
+            <h2 class="final-cta-title">
+                YOUR STORY DESERVES <br><span class="editorial-serif">TO BE REMEMBERED.</span>
+            </h2>
+            <p class="final-cta-desc">
+                Let's create photographs you'll return to for years. Inquire today to check date availability for your wedding.
+            </p>
+            <div class="final-cta-btns">
+                <a href="contact.html" class="btn-editorial-primary">
+                    <span>INQUIRE FOR YOUR DATE</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="portfolio.html" class="btn-editorial-secondary btn-light">
+                    <span>VIEW PORTFOLIO</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. SECTION 11: Sophisticated Warm Ivory Footer -->
+    <footer class="editorial-footer">
+        <div class="container-editorial">
+            <div class="footer-main-grid">
+                <div class="footer-brand-summary">
+                    <a href="index.html" class="nav-brand-logo">
+                        <img src="images/logo.svg" alt="The Bengali Bride Logo">
+                    </a>
+                    <p>
+                        Luxury wedding photography for couples who want to remember how it genuinely felt. Based in
+                        Kolkata, available worldwide.
+                    </p>
+                </div>
+
+                <div>
+                    <div class="footer-col-title">EXPLORE</div>
+                    <ul class="footer-nav-list">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Stories</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="footer-col-title">CONNECT</div>
+                    <ul class="footer-nav-list">
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"
+                                    style="margin-right: 8px;"></i>Instagram</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-pinterest-p"
+                                    style="margin-right: 8px;"></i>Pinterest</a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"
+                                    style="margin-right: 8px;"></i>Facebook</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact-info">
+                    <div class="footer-col-title">CONTACT</div>
+                    <p>hello@thebengalibride.com</p>
+                    <p>+91 98300 XXXXX</p>
+                    <p style="font-size: 12px; color: var(--text-dim); margin-top: 8px;">Ballygunge &amp; Salt Lake,
+                        Kolkata</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom-row">
+                <div>© 2026 The Bengali Bride Studio. All rights reserved.</div>
+                <div>Editorial Wedding Photography &amp; Cinematography</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Initialize WOW Animations
+            new WOW().init();
+
+            // Navbar scroll background treatment
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > 50) {
+                    $('.editorial-header').addClass('scrolled');
+                } else {
+                    $('.editorial-header').removeClass('scrolled');
+                }
+            });
+
+            // Mobile Offcanvas Drawer Handlers
+            $('#openOffcanvas').on('click', function () {
+                $('#offcanvasDrawer').addClass('active');
+                $('#offcanvasBackdrop').addClass('active');
+                $('body').css('overflow', 'hidden');
+            });
+
+            function closeOffcanvasDrawer() {
+                $('#offcanvasDrawer').removeClass('active');
+                $('#offcanvasBackdrop').removeClass('active');
+                $('body').css('overflow', '');
+            }
+
+            $('#closeOffcanvas, #offcanvasBackdrop, .offcanvas-anchor').on('click', function () {
+                closeOffcanvasDrawer();
+            });
+
+            // Magnific Popup for images & video
+            $('.gallery-items').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: { enabled: true }
+            });
+
+            $('.popup-video').magnificPopup({
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: true
+            });
+
+            // Portfolio Category Text Tabs
+            $('.gallery-text-tab').on('click', function () {
+                $('.gallery-text-tab').removeClass('active');
+                $(this).addClass('active');
+                var filterValue = $(this).attr('data-filter');
+                if (filterValue === '*') {
+                    $('.gallery-item').fadeIn(300);
+                } else {
+                    $('.gallery-item').hide();
+                    $('.gallery-item' + filterValue).fadeIn(300);
+                }
+            });
+
+            // Testimonial Swiper Slider Initialization
+            var testimonialSwiper = new Swiper('.testimonial-swiper-slider', {
+                slidesPerView: 1,
+                speed: 800,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.testimonial-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '#testiNext',
+                    prevEl: '#testiPrev',
+                },
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
